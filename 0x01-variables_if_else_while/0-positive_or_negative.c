@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point 
+ * main - entry point
  *
  *Description: print value of n : positive, zero , or negative
  *
