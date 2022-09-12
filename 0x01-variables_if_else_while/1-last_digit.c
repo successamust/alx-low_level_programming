@@ -5,15 +5,15 @@
 /**
  * Main - Entry point
  *
- * Description - Print the value of last digit of n: greater than 5, eqaul to zero, and not less than 6
+ * Description - Print the value n: greater than 5, eqaul to zero, and not less than 6
  *
- * Retun - (0) if successful 
+ * Retun - (0) if successful
  */
 
 int main(void)
 {
 	int n, LD; /*LD = Last digit*/
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	LD = n % 10; /*this get last digit*/
