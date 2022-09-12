@@ -5,18 +5,18 @@
 /**
  * Main - Entry point
  *
- * Description - Print the value n: greater than 5, eqaul to zero, and not less than 6
+ * Description - Print the value n
  *
  * Retun - (0) if successful
  */
 
 int main(void)
 {
-	int n, LD; /*LD = Last digit*/
+	int n, LD;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	LD = n % 10; /*this get last digit*/
+	LD = n % 10;
 	if (LD > 5)
 		printf("Last digit of %i is %i and is greater than 5\n", n, LD);
 	else if (LD == 0)
