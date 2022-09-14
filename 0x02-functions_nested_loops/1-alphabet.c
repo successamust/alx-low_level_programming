@@ -2,6 +2,8 @@
  #include"main.h"
 
 /**
+ * main 
+ *
  * printing alphabets unsing putchar function
  *
  * return a-z
