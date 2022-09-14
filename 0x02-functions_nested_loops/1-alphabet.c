@@ -4,7 +4,7 @@
 /**
  * printing alphabets unsing putchar function
  *
- * return a-z 
+ * return a-z
  */
 
 void print_alphabet(void)
