@@ -4,7 +4,7 @@
 /**
  * main-Entry point
  *
- * printing alphabets unsing putchar function
+ * print_alphabet unsing putchar function
  *
  * return a-z
  */
