@@ -2,6 +2,7 @@
  #include"main.h"
 
 /**
+ * main entry
  * print_alphabet unsing putchar function
  *
  * return a-z
