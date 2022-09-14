@@ -2,8 +2,6 @@
  #include"main.h"
 
 /**
- * main-Entry point
- *
  * print_alphabet unsing putchar function
  *
  * return a-z
