@@ -1,6 +1,7 @@
 #include"main.h"
 
 /**
+ * main -point
  * Print_sign - this is a funtion to check the sign of a number
  * @n: int used for argument of a function.
  * Return: 0
