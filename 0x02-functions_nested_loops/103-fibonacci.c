@@ -1,29 +1,3 @@
-
-Search or jump to…
-Pulls
-Issues
-Marketplace
-Explore
- 
-@successamust 
-iAmG-r00t
-/
-alx-low_level_programming
-Public
-Code
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x02-functions_nested_loops/103-fibonacci.c
-@iAmG-r00t
-iAmG-r00t fix code logic... 🐙😀😭👌
-Latest commit 2b55f91 on Feb 16
- History
- 1 contributor
-34 lines (27 sloc)  443 Bytes
-
 #include"main.h"
 
 /**
