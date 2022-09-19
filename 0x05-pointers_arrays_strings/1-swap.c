@@ -3,7 +3,7 @@
  * using two input parameters
  *
  * @a: input parameter 1
- * @a: input parameter 2
+ * @b: input parameter 2
  *
  * Return: 0
  */
