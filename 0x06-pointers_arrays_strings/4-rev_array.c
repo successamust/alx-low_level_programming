@@ -1,6 +1,6 @@
 /**
  * reverse_array - a function that reverses thecontent of an array of integers
- * 
+ *
  * @a: pointer to int array
  * @n: is the number of elements to swap
  *
