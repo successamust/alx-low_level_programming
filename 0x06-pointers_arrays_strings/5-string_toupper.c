@@ -1,8 +1,6 @@
 /**
- * string_toupper - a function that changes all lowercase lettas of a string to.
- *
+ * string_toupper - a function that changes all lowercase letta.
  * @s : pointer to input char
- *
  * Return: @s
  */
 
