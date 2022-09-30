@@ -2,12 +2,15 @@
 #include <stdio.h>
 
 /**
- * main - funtion that prints the number arguments passed into it
- * @argc: hoold the count of arguments
- * @argv: holds the array of argument passed
+ * main - a program that prints the number of arguments
+ *        passed into it
  *
- * Return 0
- */
+ * @argc: holds the number of arguments passed
+ * @argv: array pointer that holds the arguments passed
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(int argc, char __attribute__((unused)) *argv[])
 {
 	int i = 0, m;
