@@ -13,7 +13,7 @@ int main(void)
 {
 	char *s;
 
-	s = _strdup("hiberton");
+	s = _strdup("ALX SE");
 	if (s == NULL)
 	{
 		printf("failed to allocate memory\n");
