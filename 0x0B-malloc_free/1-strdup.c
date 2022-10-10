@@ -1,24 +1,35 @@
-#include "main.h"
+#include <stdlib.h>
 
 /**
- * main - checks the code
+ * *_strdup - a function that duplicates a string
  *
- * @s: pointer to a string
- * return 0
- */
+ * @str: input string to duplicate
+ *
+ * Return: NULL if str == NULL
+ *         @str
+*/
 
-int main(void)
+char *_strdup(char *str)
 {
+	int i = 0, l = 0;
 	char *s;
 
-	s = _strdup("ALX SE");
-	if (s == NULL)
-	{
-		printf("failed to allocate memory\n");
-		return(1);
-	}
-	printf("%s\n", s);
-	free(s);
-	return (0);
-}
+	if (str == NULL)
+		return (NULL);
 
+	/*calculate size of str*/
+	while (str[l] != '\0')
+		l++;
+
+	s = malloc((l + 1) * sizeof(char));
+	if (s == NULL)
+		return (NULL);
+
+	while (str[i] != '\0')
+	{
+		s[i] = str[i];
+		i++;
+	}
+
+	return (s);
+}
